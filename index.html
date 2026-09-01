@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Klára Orbán — links to research, projects, and profiles.">
+  <title>Klára Orbán — Links</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;700&family=Noto+Sans:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: 'Noto Sans', sans-serif;
+      background: #fafbfc;
+      color: #222;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 3rem 1.25rem;
+    }
+    .hub {
+      width: 100%;
+      max-width: 440px;
+      text-align: center;
+    }
+    .avatar-ring {
+      width: 84px;
+      height: 84px;
+      margin: 0 auto 1.1rem;
+      border-radius: 50%;
+      background: linear-gradient(160deg, #209cee 0%, #0d1b2a 100%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: 'Google Sans', sans-serif;
+      font-size: 2rem;
+      font-weight: 700;
+      color: #fff;
+    }
+    h1 {
+      font-family: 'Google Sans', sans-serif;
+      font-size: 1.5rem;
+      font-weight: 700;
+      margin: 0 0 0.3rem;
+      color: #111;
+    }
+    .role {
+      font-size: 0.92rem;
+      color: #666;
+      line-height: 1.5;
+      margin: 0 0 2rem;
+    }
+    .links {
+      display: flex;
+      flex-direction: column;
+      gap: 0.7rem;
+    }
+    .link-card {
+      display: flex;
+      align-items: center;
+      gap: 0.9rem;
+      background: #fff;
+      border: 1px solid #e6e8eb;
+      border-radius: 12px;
+      padding: 0.85rem 1.1rem;
+      text-decoration: none;
+      color: #222;
+      transition: box-shadow 0.15s, transform 0.15s, border-color 0.15s;
+      text-align: left;
+    }
+    .link-card:hover {
+      box-shadow: 0 6px 20px rgba(0,0,0,0.07);
+      transform: translateY(-1px);
+      border-color: #d7dbe0;
+    }
+    .link-card .icon {
+      flex: 0 0 auto;
+      width: 38px;
+      height: 38px;
+      border-radius: 9px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.05rem;
+      color: #fff;
+    }
+    .icon.linkedin { background: #0a66c2; }
+    .icon.github { background: #171515; }
+    .icon.paper1 { background: #2f9bd6; }
+    .icon.paper2 { background: #1a7a42; }
+    .icon.email { background: #6b5bd6; }
+
+    .link-text { flex: 1 1 auto; min-width: 0; }
+    .link-title {
+      font-family: 'Google Sans', sans-serif;
+      font-weight: 600;
+      font-size: 0.95rem;
+      line-height: 1.3;
+      margin: 0 0 0.15rem;
+    }
+    .link-sub {
+      font-size: 0.8rem;
+      color: #777;
+      margin: 0;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    .link-card .arrow {
+      flex: 0 0 auto;
+      color: #b7bcc2;
+      font-size: 0.9rem;
+    }
+
+    footer {
+      margin-top: 2.2rem;
+      font-size: 0.78rem;
+      color: #aaa;
+    }
+
+    .section-label {
+      font-family: 'Google Sans', sans-serif;
+      font-size: 0.78rem;
+      font-weight: 600;
+      letter-spacing: 0.03em;
+      text-transform: uppercase;
+      color: #999;
+      text-align: left;
+      margin: 1.6rem 0 0.6rem 0.2rem;
+    }
+    .icon.linkedin2 { background: #0a66c2; }
+    .icon.email2 { background: #b5651d; }
+  </style>
+</head>
+<body>
+
+  <div class="hub">
+    <div class="avatar-ring">KO</div>
+    <h1>Klára Orbán</h1>
+    <p class="role">Under-ice &amp; polar 3D reconstruction research<br>Babeș-Bolyai University, Cluj-Napoca</p>
+
+    <div class="links">
+      <a class="link-card" href="https://www.linkedin.com/in/kl%C3%A1ra-orb%C3%A1n-764961317/" target="_blank" rel="noopener">
+        <span class="icon linkedin"><i class="fab fa-linkedin-in"></i></span>
+        <span class="link-text">
+          <p class="link-title">LinkedIn</p>
+          <p class="link-sub">Connect with me</p>
+        </span>
+        <span class="arrow"><i class="fas fa-arrow-up-right-from-square"></i></span>
+      </a>
+
+      <a class="link-card" href="https://github.com/Klaraaorban" target="_blank" rel="noopener">
+        <span class="icon github"><i class="fab fa-github"></i></span>
+        <span class="link-text">
+          <p class="link-title">GitHub</p>
+          <p class="link-sub">Code &amp; project repos</p>
+        </span>
+        <span class="arrow"><i class="fas fa-arrow-up-right-from-square"></i></span>
+      </a>
+
+      <a class="link-card" href="https://klaraaorban.github.io" target="_blank" rel="noopener">
+        <span class="icon paper1"><i class="fas fa-water"></i></span>
+        <span class="link-text">
+          <p class="link-title">Under-Ice 3D Reconstruction Benchmark</p>
+          <p class="link-sub">ICRA 2026 · S2S Workshop</p>
+        </span>
+        <span class="arrow"><i class="fas fa-arrow-up-right-from-square"></i></span>
+      </a>
+
+      <a class="link-card" href="https://klaraaorban.github.io/underice-breakdown/" target="_blank" rel="noopener">
+        <span class="icon paper2"><i class="fas fa-icicles"></i></span>
+        <span class="link-text">
+          <p class="link-title">Why 3D Reconstruction Breaks Down on Under-Ice AUV Video</p>
+          <p class="link-sub">Marine Vision Workshop · ECCV 2026</p>
+        </span>
+        <span class="arrow"><i class="fas fa-arrow-up-right-from-square"></i></span>
+      </a>
+
+      <a class="link-card" href="mailto:klara.orban@stud.ubbcluj.ro">
+        <span class="icon email"><i class="fas fa-envelope"></i></span>
+        <span class="link-text">
+          <p class="link-title">Email</p>
+          <p class="link-sub">klara.orban@stud.ubbcluj.ro</p>
+        </span>
+        <span class="arrow"><i class="fas fa-arrow-up-right-from-square"></i></span>
+      </a>
+    </div>
+
+    <p class="section-label">Co-author — Ana-Ștefania Kogălniceanu</p>
+    <div class="links">
+      <a class="link-card" href="https://www.linkedin.com/in/ana-%C8%99tefania-kog%C4%83lniceanu-68b01b39b/" target="_blank" rel="noopener">
+        <span class="icon linkedin2"><i class="fab fa-linkedin-in"></i></span>
+        <span class="link-text">
+          <p class="link-title">LinkedIn</p>
+          <p class="link-sub">Connect with Ana</p>
+        </span>
+        <span class="arrow"><i class="fas fa-arrow-up-right-from-square"></i></span>
+      </a>
+
+      <a class="link-card" href="mailto:ana.kogalniceanu@stud.ubbcluj.ro">
+        <span class="icon email2"><i class="fas fa-envelope"></i></span>
+        <span class="link-text">
+          <p class="link-title">Email</p>
+          <p class="link-sub">ana.kogalniceanu@stud.ubbcluj.ro</p>
+        </span>
+        <span class="arrow"><i class="fas fa-arrow-up-right-from-square"></i></span>
+      </a>
+    </div>
+
+    <footer>klaraaorban.github.io/links</footer>
+  </div>
+
+</body>
+</html>
