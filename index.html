@@ -134,6 +134,27 @@
     }
     .icon.linkedin2 { background: #0a66c2; }
     .icon.email2 { background: #b5651d; }
+
+    .link-card.featured {
+      background: #fdf6dc;
+      border-color: #f0dfa0;
+    }
+    .link-card.featured:hover { border-color: #e6cf7a; }
+    .link-card.featured .link-sub { color: #8a6d1f; }
+    .featured-tag {
+      flex: 0 0 auto;
+      font-family: 'Google Sans', sans-serif;
+      font-size: 0.68rem;
+      font-weight: 700;
+      letter-spacing: 0.02em;
+      text-transform: uppercase;
+      color: #8a6d1f;
+      background: #f5e6a8;
+      border-radius: 20px;
+      padding: 3px 9px;
+      margin-right: 0.2rem;
+      white-space: nowrap;
+    }
   </style>
 </head>
 <body>
@@ -143,6 +164,7 @@
     <h1>Klára Orbán</h1>
     <p class="role">Under-ice &amp; polar 3D reconstruction research<br>Babeș-Bolyai University, Cluj-Napoca</p>
 
+    <p class="section-label" style="margin-top:0;">Contact</p>
     <div class="links">
       <a class="link-card" href="https://www.linkedin.com/in/kl%C3%A1ra-orb%C3%A1n-764961317/" target="_blank" rel="noopener">
         <span class="icon linkedin"><i class="fab fa-linkedin-in"></i></span>
@@ -162,6 +184,18 @@
         <span class="arrow"><i class="fas fa-arrow-up-right-from-square"></i></span>
       </a>
 
+      <a class="link-card" href="mailto:klara.orban@stud.ubbcluj.ro">
+        <span class="icon email"><i class="fas fa-envelope"></i></span>
+        <span class="link-text">
+          <p class="link-title">Email</p>
+          <p class="link-sub">klara.orban@stud.ubbcluj.ro</p>
+        </span>
+        <span class="arrow"><i class="fas fa-arrow-up-right-from-square"></i></span>
+      </a>
+    </div>
+
+    <p class="section-label">Current Work</p>
+    <div class="links">
       <a class="link-card" href="https://klaraaorban.github.io" target="_blank" rel="noopener">
         <span class="icon paper1"><i class="fas fa-water"></i></span>
         <span class="link-text">
@@ -171,21 +205,13 @@
         <span class="arrow"><i class="fas fa-arrow-up-right-from-square"></i></span>
       </a>
 
-      <a class="link-card" href="https://klaraaorban.github.io/underice-breakdown/" target="_blank" rel="noopener">
+      <a class="link-card featured" href="https://klaraaorban.github.io/underice-breakdown/" target="_blank" rel="noopener">
         <span class="icon paper2"><i class="fas fa-icicles"></i></span>
         <span class="link-text">
           <p class="link-title">Why 3D Reconstruction Breaks Down on Under-Ice AUV Video</p>
           <p class="link-sub">Marine Vision Workshop · ECCV 2026</p>
         </span>
-        <span class="arrow"><i class="fas fa-arrow-up-right-from-square"></i></span>
-      </a>
-
-      <a class="link-card" href="mailto:klara.orban@stud.ubbcluj.ro">
-        <span class="icon email"><i class="fas fa-envelope"></i></span>
-        <span class="link-text">
-          <p class="link-title">Email</p>
-          <p class="link-sub">klara.orban@stud.ubbcluj.ro</p>
-        </span>
+        <span class="featured-tag">New</span>
         <span class="arrow"><i class="fas fa-arrow-up-right-from-square"></i></span>
       </a>
     </div>
